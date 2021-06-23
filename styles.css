@@ -32,7 +32,28 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
+  @media screen and(max-width:470) {
+    .form{
+
+      width: auto;
+      height: auto;
+
+    }
+  }
   
+  @media screen and(max-width:375){
+
+    .form{
+
+      width: auto;
+      height: auto;
+
+    }
+
+
+  }
+
   .title {
     margin: 0;
     text-align: center;
